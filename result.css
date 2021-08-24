@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#photo{
+    border-radius: 20px;
+}
+
+body{
+ background-color: rgb(54, 54, 54);
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ display: flex;
+}
+main {
+
+width:70% ;
+box-shadow: 0px 0px 20px 0px #18a497;
+margin-left: 28px; 
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: rgb(27, 27, 27);
+color: white;border-radius: 20px;
+
+
+    
+
+}
+
+.one {display:flex;
+    flex-flow: row wrap;
+   width: 95%;
+    
+    margin: auto 0;
+   justify-content:space-between;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.place {padding: 30px;
+    width: 60%;
+
+}
+.one h4 {font-size: large;
+   
+}
+
+
+.tow {display: flex;
+    flex-direction: row;
+    width:100%;
+    margin: auto 0;
+    justify-content:space-between;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(255, 255, 255);
+   padding: 30px;
+  
+   box-shadow: 0px 0px 20px 0px #18a497;
+  
+}
+
+.tow p {padding-top: 10px;}
+  h3 {color :grey;
+    border-bottom: 1px solid silver;
+   padding-left: 5px;
+   padding-bottom: 5px;
+}
+
+ a {
+    color: grey;
+
+
+}
+a:hover {color:darkgray;
+
+}
+
+#button {padding: 5px;
+
+}
+
+.number {display:flex;
+flex-flow: row wrap;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+h5 {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+   
+
+}
+
+.three {
+    width: 50%;
+  
+}
+.info {display: flex;
+flex-flow: row wrap;
+margin: auto;
+justify-content: space-between;
+padding-top: 30px;
+}
+
+#logo{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.all{
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    width: 90%;
+    
+}
+
+.try{margin: auto;
+    width:25%;
+
+}
+#itme{
+    background-color: rgb(61, 61, 61);
+    padding: 10px;
+    font-size: 10px;
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+#img{
+    width: 250px;
+    border-radius: 10px ;
+}
