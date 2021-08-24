@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+}
+
+main{
+ 
+    text-align: center;
+    
+}
+
+#logo{
+    width: 10%;
+    margin-top: 140px;
+}
+
+#slogin{
+    font-size: x-large;
+    margin: 20px;
+    color: wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#search{
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+button{
+    margin-top: 20px;
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
