@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>food book</title>
     <link rel="stylesheet" href="data.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
@@ -20,9 +21,12 @@
             </div>
             <span class="close" onclick="searchToggle(this, event);"></span>
         </div>
+
+        <button id="burger-menu"><img id="burger-menu-img" src="./Hamburger_icon.svg.png"
+                alt=""></button>
     </header>
 
-    <ul class="health-information">
+    <ul id="ul" class="health-information-close">
         <!-- start health -->
         <div class="health">
             <h1>Health</h1>
@@ -30,14 +34,23 @@
                 <input type="checkbox" value="Alcohol-free">
                 <label for="input">Alcohol-free</label>
             </li>
-            <li><input type="checkbox" value="Alcohol-free">
-                <label for="input">Alcohol-free</label>
+            <li><input type="checkbox" value="Celery-free">
+                <label for="input">Celery-free</label>
             </li>
-            <li><input type="checkbox" value="Alcohol-free">
-                <label for="input">Alcohol-free</label>
+            <li><input type="checkbox" value="Crustacean-free">
+                <label for="input">Crustacean-free</label>
             </li>
-            <li><input type="checkbox" value="Alcohol-free">
-                <label for="input">Alcohol-free</label>
+            <li><input type="checkbox" value="Dairy-free">
+                <label for="input">Dairy-free</label>
+            </li>
+            <li><input type="checkbox" value="Egg-free">
+                <label for="input">Egg-free</label>
+            </li>
+            <li><input type="checkbox" value="Fish-free">
+                <label for="input">Fish-free</label>
+            </li>
+            <li><input type="checkbox" value="Gluten-free">
+                <label for="input">Gluten-free</label>
             </li>
         </div>
         <!-- end health -->
@@ -74,9 +87,13 @@
             </li>
             <li><input type="checkbox" value="Alcohol-free">
                 <label for="input">Alcohol-free</label>
+                
             </li>
+             <button id="close-btn">go</button>
+
         </div>
         <!-- end nutrients -->
+       
     </ul>
 
     <main>
@@ -226,7 +243,7 @@
             </div>
         </div>
     </main>
-    <script src="./data.js"></script>
+    <script src="./api.js"></script>
 </body>
 
 </html>
