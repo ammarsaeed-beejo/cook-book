@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food book</title>
+    <link rel="stylesheet" href="data.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header id="head">
+        <img id="logo" src="logo.png">
+        <div class="search-wrapper">
+            <div class="input-holder">
+                <input type="text" class="search-input" placeholder="Type to search" />
+                <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+            </div>
+            <span class="close" onclick="searchToggle(this, event);"></span>
+        </div>
+
+        <button id="burger-menu"><img id="burger-menu-img" src="./Hamburger_icon.svg.png"
+                alt=""></button>
+    </header>
+
+    <ul id="ul" class="health-information-close">
+        <!-- start health -->
+        <div class="health">
+            <h1>Health</h1>
+            <li>
+                <input type="checkbox" value="Alcohol-free">
+                <label for="input">Alcohol-free</label>
+            </li>
+            <li><input type="checkbox" value="Celery-free">
+                <label for="input">Celery-free</label>
+            </li>
+            <li><input type="checkbox" value="Crustacean-free">
+                <label for="input">Crustacean-free</label>
+            </li>
+            <li><input type="checkbox" value="Dairy-free">
+                <label for="input">Dairy-free</label>
+            </li>
+            <li><input type="checkbox" value="Egg-free">
+                <label for="input">Egg-free</label>
+            </li>
+            <li><input type="checkbox" value="Fish-free">
+                <label for="input">Fish-free</label>
+            </li>
+            <li><input type="checkbox" value="Gluten-free">
+                <label for="input">Gluten-free</label>
+            </li>
+        </div>
+        <!-- end health -->
+        <!-- start diet -->
+        <div class="diet">
+            <h1>Diet</h1>
+            <li>
+                <input type="checkbox" value="Alcohol-free">
+                <label for="input">Alcohol-free</label>
+            </li>
+            <li><input type="checkbox" value="Alcohol-free">
+                <label for="input">Alcohol-free</label>
+            </li>
+            <li><input type="checkbox" value="Alcohol-free">
+                <label for="input">Alcohol-free</label>
+            </li>
+            <li><input type="checkbox" value="Alcohol-free">
+                <label for="input">Alcohol-free</label>
+            </li>
+        </div>
+        <!-- end diet -->
+        <!-- start nutrients -->
+        <div class="nutrients">
+            <h1>Nutrients</h1>
+            <li>
+                <input type="checkbox" value="Alcohol-free">
+                <label for="input">Alcohol-free</label>
+            </li>
+            <li><input type="checkbox" value="Alcohol-free">
+                <label for="input">Alcohol-free</label>
+            </li>
+            <li><input type="checkbox" value="Alcohol-free">
+                <label for="input">Alcohol-free</label>
+            </li>
+            <li><input type="checkbox" value="Alcohol-free">
+                <label for="input">Alcohol-free</label>
+                
+            </li>
+             <button id="close-btn">go</button>
+
+        </div>
+        <!-- end nutrients -->
+       
+    </ul>
+
+    <main>
+        <div id="returns">
+            <div id="itme">
+                <img id="img" src="img.jpg">
+                <div id="data">
+                    <h1 id="name">pizza margherita</h1>
+                    <div id="info">
+                        <p id="CALORIES">calories 224</p>
+                        <p id="INGREDIENTS">INGREDIENTS 4</p>
+                    </div>
+                    <br>
+                    <a id="link" href="https://www.latimes.com/food/la-fo-homepizzarec25b-2009mar25-story.html">more
+                        info</a>
+                </div>
+            </div>
+            <div id="itme">
+                <img id="img" src="img.jpg">
+                <div id="data">
+                    <h1 id="name">pizza margherita</h1>
+                    <div id="info">
+                        <p id="CALORIES">calories 224</p>
+                        <p id="INGREDIENTS">INGREDIENTS 4</p>
+                    </div>
+                    <br>
+                    <a id="link" href="https://www.latimes.com/food/la-fo-homepizzarec25b-2009mar25-story.html">more
+                        info</a>
+                </div>
+            </div>
+            <div id="itme">
+                <img id="img" src="img.jpg">
+                <div id="data">
+                    <h1 id="name">pizza margherita</h1>
+                    <div id="info">
+                        <p id="CALORIES">calories 224</p>
+                        <p id="INGREDIENTS">INGREDIENTS 4</p>
+                    </div>
+                    <br>
+                    <a id="link" href="https://www.latimes.com/food/la-fo-homepizzarec25b-2009mar25-story.html">more
+                        info</a>
+                </div>
+            </div>
+            <div id="itme">
+                <img id="img" src="img.jpg">
+                <div id="data">
+                    <h1 id="name">pizza margherita</h1>
+                    <div id="info">
+                        <p id="CALORIES">calories 224</p>
+                        <p id="INGREDIENTS">INGREDIENTS 4</p>
+                    </div>
+                    <br>
+                    <a id="link" href="https://www.latimes.com/food/la-fo-homepizzarec25b-2009mar25-story.html">more
+                        info</a>
+                </div>
+            </div>
+            <div id="itme">
+                <img id="img" src="img.jpg">
+                <div id="data">
+                    <h1 id="name">pizza margherita</h1>
+                    <div id="info">
+                        <p id="CALORIES">calories 224</p>
+                        <p id="INGREDIENTS">INGREDIENTS 4</p>
+                    </div>
+                    <br>
+                    <a id="link" href="https://www.latimes.com/food/la-fo-homepizzarec25b-2009mar25-story.html">more
+                        info</a>
+                </div>
+            </div>
+            <div id="itme">
+                <img id="img" src="img.jpg">
+                <div id="data">
+                    <h1 id="name">pizza margherita</h1>
+                    <div id="info">
+                        <p id="CALORIES">calories 224</p>
+                        <p id="INGREDIENTS">INGREDIENTS 4</p>
+                    </div>
+                    <br>
+                    <a id="link" href="https://www.latimes.com/food/la-fo-homepizzarec25b-2009mar25-story.html">more
+                        info</a>
+                </div>
+            </div>
+            <div id="itme">
+                <img id="img" src="img.jpg">
+                <div id="data">
+                    <h1 id="name">pizza margherita</h1>
+                    <div id="info">
+                        <p id="CALORIES">calories 224</p>
+                        <p id="INGREDIENTS">INGREDIENTS 4</p>
+                    </div>
+                    <br>
+                    <a id="link" href="https://www.latimes.com/food/la-fo-homepizzarec25b-2009mar25-story.html">more
+                        info</a>
+                </div>
+            </div>
+            <div id="itme">
+                <img id="img" src="img.jpg">
+                <div id="data">
+                    <h1 id="name">pizza margherita</h1>
+                    <div id="info">
+                        <p id="CALORIES">calories 224</p>
+                        <p id="INGREDIENTS">INGREDIENTS 4</p>
+                    </div>
+                    <br>
+                    <a id="link" href="https://www.latimes.com/food/la-fo-homepizzarec25b-2009mar25-story.html">more
+                        info</a>
+                </div>
+            </div>
+            <div id="itme">
+                <img id="img" src="img.jpg">
+                <div id="data">
+                    <h1 id="name">pizza margherita</h1>
+                    <div id="info">
+                        <p id="CALORIES">calories 224</p>
+                        <p id="INGREDIENTS">INGREDIENTS 4</p>
+                    </div>
+                    <br>
+                    <a id="link" href="https://www.latimes.com/food/la-fo-homepizzarec25b-2009mar25-story.html">more
+                        info</a>
+                </div>
+            </div>
+            <div id="itme">
+                <img id="img" src="img.jpg">
+                <div id="data">
+                    <h1 id="name">pizza margherita</h1>
+                    <div id="info">
+                        <p id="CALORIES">calories 224</p>
+                        <p id="INGREDIENTS">INGREDIENTS 4</p>
+                    </div>
+                    <br>
+                    <a id="link" href="https://www.latimes.com/food/la-fo-homepizzarec25b-2009mar25-story.html">more
+                        info</a>
+                </div>
+            </div>
+            <div id="itme">
+                <img id="img" src="img.jpg">
+                <div id="data">
+                    <h1 id="name">pizza margherita</h1>
+                    <div id="info">
+                        <p id="CALORIES">calories 224</p>
+                        <p id="INGREDIENTS">INGREDIENTS 4</p>
+                    </div>
+                    <br>
+                    <a id="link" href="https://www.latimes.com/food/la-fo-homepizzarec25b-2009mar25-story.html">more
+                        info</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./api.js"></script>
+</body>
+
+</html>
