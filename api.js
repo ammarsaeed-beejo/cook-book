@@ -1,11 +1,18 @@
 const openbtn = document.getElementById("burger-menu");
 const closebtn = document.getElementById("close-btn");
-const searshinpot = document.getElementById("search");
+const searchForm = document.getElementById("search");
 const gobtn = document.getElementById("gobutton");
-const resultdiv = document.getElementById("returns");
+const searchResultDiv = document.getElementById("returns");
 const health_information= document.getElementById("ul");
+const APP_ID = "87b086fc";
+const APP_key = "71045b8ebe617f09be582fcfa204a6ea";
+let searchQuery = "search";
 
-
+searchForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  searchQuery = e.target.querySelector("input").value;
+  fetchAPI();
+});
 
 
 closebtn.addEventListener("click", () => {

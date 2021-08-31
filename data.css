@@ -15,7 +15,7 @@ body {
 #head {
   height: 100px;
   margin-bottom: 20px;
- 
+ display: inline-flex;
   justify-content: center;
   margin-left: 188px;
 }
@@ -39,6 +39,11 @@ body {
   border-radius: 10px;
 }
 
+a{
+  color: wheat;
+  text-decoration: none;
+}
+
 #img {
   width: 200px;
   border-radius: 10px;
@@ -51,6 +56,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  font-style: none;
 }
 
 #name {
@@ -71,11 +77,14 @@ p {
 #link {
   color: rgb(189, 179, 245);
   text-decoration: none;
+  font-size: 15px;
 }
 
 /* search start */
 
-
+::selection {
+  background: #212129;
+}
 
 .search-wrapper {
   position: absolute;
@@ -207,18 +216,14 @@ p {
 }
 
 #burger-menu {
-  width: 40px;
   height: 40px;
-  margin-left: 330px;
-  margin-top: 45px;
+  margin-left: 340px;
+  margin-top: 107px;
   background-color: transparent;
   border: none;
   cursor: pointer;
-}
-
-#burger-menu-img {
-  width: 40px;
-  height: 40px;
+  color: wheat;
+  margin-bottom: 20px;
 }
 
 #close-btn {
@@ -238,4 +243,17 @@ li {
 
 label{
   margin-left: 10px;
+}
+
+#Option{
+  display: inline-flex;
+
+
+}
+
+#ar{
+    width: 5%;
+    margin-bottom: 25px;
+    margin-left: 10px;
+
 }
