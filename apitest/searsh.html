@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>food book</title>
-    <link rel="stylesheet" href="data.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-</head>
+    <link rel="stylesheet" href="./searsh.css"/>
+  </head>
 
-<body>
-    <header id="head">
-        <img id="logo" src="logo.png">
-        <div class="search-wrapper active">
-            <div class="input-holder">
-                <input type="text" id="search" class="search-input" placeholder="Type to search" />
-                <button class="search-icon"><span></span></button>
-            </div>
-            </div>
+  <body>
+    <main>
 
-        <button id="burger-menu"><div id="Option"><p>Advanced Options</p> <img id="ar" src="./ar.png"></div> </button> 
+        
+      <img id="logo" src="./logo.png" />
+
+      <p id="slogin">
+        Search for food according <br />
+        to the ingredients you have
+      </p>
+
+      <form id="form">
+        <input type="text" id="mainsearch" placeholder="egg.potato" />
+      </form>
+     
+       <button id="burger-menu"><div id="Option"><p>Advanced Options</p> <img id="ar" src="./ar.png"></div></button> 
     </header>
 
-    <ul id="ul" class="health-information-close">
+      <ul id="ul" class="health-information-close">
         <!-- start health -->
         <div class="health">
             <h1>Health</h1>
@@ -94,9 +96,13 @@
        
     </ul>
 
-    <main>
-       <!-- <a href="./result.html"> 
+
+    </main>
+
+    <section id="Resultsarya">
+       
         <div id="returns">
+          <!-- <a href="./result.html"> 
             <div id="itme">
                 <img id="img" src="img.jpg">
                 <div id="data">
@@ -106,15 +112,14 @@
                         <p id="INGREDIENTS">INGREDIENTS 4</p>
                     </div>
                     <br>
-                    
                     <a id="link" href="./result.html">more
                         info</a>
                 </div>
+              </a> -->
             </div>
-            </a>-->
-    </main> 
-    <script src="./api.js"></script>
-    <script src="./data.js"></script>
-</body>
+            
+    </section>
 
+    <script src="./api.js"></script>
+  </body>
 </html>
